@@ -1,0 +1,49 @@
+{
+  "name": "Sri Lalitha Sahasranamam",
+  "short_name": "Lalitha Sahasranamam",
+  "description": "A divine hymn of 1000 names of Goddess Lalitha with audio and text in Tamil",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f5e6d3",
+  "theme_color": "#8b4513",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/vrsaparna/Lalitha/main/Images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/vrsaparna/Lalitha/main/Images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "productivity"],
+  "screenshots": [
+    {
+      "src": "https://raw.githubusercontent.com/vrsaparna/Lalitha/main/Images/screenshot-540x720.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Listen to Audio",
+      "short_name": "Listen",
+      "description": "Listen to Lalitha Sahasranamam recitation",
+      "url": "/?action=listen",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/vrsaparna/Lalitha/main/Images/icon-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
